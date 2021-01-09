@@ -9,7 +9,7 @@ import { ServicoPrestadoBusca } from './servico-prestado/servico-prestado-lista/
   providedIn: 'root',
 })
 export class ServicoPrestadoService {
-  baseUrl: string = environment.baseUrl + '/api/servicos-prestados';
+  baseUrl: string = environment.ANGULAR_APP_API_URL + '/api/servicos-prestados';
   constructor(private http: HttpClient) {}
 
   salvar(servicoPrestado: ServicoPrestado): Observable<ServicoPrestado> {

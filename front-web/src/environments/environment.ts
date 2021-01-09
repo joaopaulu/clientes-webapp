@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  baseUrl: 'https://clientes-services.herokuapp.com',
+  ANGULAR_APP_API_URL: 'https://clientes-services.herokuapp.com',
 };
 
 /*

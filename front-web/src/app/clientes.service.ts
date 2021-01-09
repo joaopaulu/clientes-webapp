@@ -8,7 +8,7 @@ import { environment } from './../environments/environment';
   providedIn: 'root',
 })
 export class ClientesService {
-  baseUrl: string = environment.baseUrl + '/api/clientes';
+  baseUrl: string = environment.ANGULAR_APP_API_URL + '/api/clientes';
 
   constructor(private http: HttpClient) {}
 
