@@ -27,7 +27,7 @@ public class CorsFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) resp;
 
         // TODO: Configurar para diferentes ambientes
-        String originPermitida = "*";
+        String originPermitida = "https://clientes-webapp.netlify.app";
         response.setHeader("Access-Control-Allow-Origin", originPermitida);
         response.setHeader("Access-Control-Allow-Credentials", "true");
 
