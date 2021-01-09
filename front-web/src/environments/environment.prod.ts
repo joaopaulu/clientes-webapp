@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  ANGULAR_APP_API_URL: 'https://clientes-services.herokuapp.com',
 };
