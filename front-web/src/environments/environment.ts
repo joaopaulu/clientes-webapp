@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  baseUrl: 'https://clientes-services.herokuapp.com/api',
+  baseUrl: 'https://clientes-services.herokuapp.com',
 };
 
 /*
