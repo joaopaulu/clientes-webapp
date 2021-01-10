@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 @Configuration
 @EnableWebSecurity
-public class CorsFilter extends WebSecurityConfigurerAdapter {
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private Environment env;
@@ -40,5 +40,4 @@ public class CorsFilter extends WebSecurityConfigurerAdapter {
         source.registerCorsConfiguration("/**", configuration);
         return source;
     }
-
 }
