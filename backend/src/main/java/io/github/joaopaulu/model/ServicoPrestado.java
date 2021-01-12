@@ -10,6 +10,7 @@ import java.time.LocalDate;
 @Entity
 @Data
 public class ServicoPrestado {
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
