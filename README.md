@@ -1,4 +1,4 @@
-# Gerendiador de Serviços
+# Gerenciador de Serviços
 
 
 # Sobre o projeto
