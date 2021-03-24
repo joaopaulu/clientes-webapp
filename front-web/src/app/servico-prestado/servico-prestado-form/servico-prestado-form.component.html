@@ -20,7 +20,7 @@
       <div class="col-md-12">
         <div class="form-group">
           <label for="">Cliente:</label>
-          <select class="form-control" 
+          <select class="form-control"
                   [ngModelOptions]="{standalone:true}"
                   [(ngModel)]="servico.idCliente">
             <option value="">Selecione...</option>
@@ -29,14 +29,14 @@
             </option>
           </select>
         </div>
-      </div>     
+      </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div class="form-group">
           <label for="">Descrição:</label>
           <input class="form-control"
-                [(ngModel)]="servico.descricao" type="text" 
+                [(ngModel)]="servico.descricao" type="text"
                 name="descricao" id="inputDescricao">
         </div>
       </div>
@@ -46,7 +46,7 @@
         <div class="form-group">
           <label for="">Data:</label>
           <input class="form-control"
-                [(ngModel)]="servico.data" type="text" 
+                [(ngModel)]="servico.data" type="text"
                 name="data" id="inputData">
         </div>
       </div>
@@ -55,20 +55,20 @@
         <div class="form-group">
           <label for="">Preço:</label>
           <input class="form-control"
-                [(ngModel)]="servico.preco" type="text" 
+                [(ngModel)]="servico.preco" type="text"
                 name="preco" id="inputPreco">
         </div>
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-md3">
         <button type="submit" class="btn btn-success">
           <i class="fa fa-save"></i>
           Salvar
         </button>
-        <button type="button" 
-                routerLink="/servico-prestado-listagem" 
+        <button type="button"
+                routerLink="/servicos-prestados/lista"
                 class="btn btn-danger" ml-2>
           <i class="fa fa-arrow-alt-circle-left"></i> Voltar
         </button>
