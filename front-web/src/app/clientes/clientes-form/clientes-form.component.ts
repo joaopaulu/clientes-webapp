@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ClientesService } from 'src/app/clientes.service';
+import { ClientesService } from 'app/clientes.service';
 import { Cliente } from './../cliente';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Observable } from 'rxjs';
@@ -7,7 +7,6 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'app-clientes-form',
   templateUrl: './clientes-form.component.html',
-  styleUrls: ['./clientes-form.component.css'],
 })
 export class ClientesFormComponent implements OnInit {
   cliente: Cliente;

@@ -1,11 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ServicoPrestadoService } from 'src/app/servico-prestado.service';
+import { ServicoPrestadoService } from 'app/servico-prestado.service';
 import { ServicoPrestadoBusca } from './servicoPrestadoBusca';
 
 @Component({
   selector: 'app-servico-prestado-lista',
   templateUrl: './servico-prestado-lista.component.html',
-  styleUrls: ['./servico-prestado-lista.component.css'],
 })
 export class ServicoPrestadoListaComponent implements OnInit {
   nome: string;
